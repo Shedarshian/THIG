@@ -1,0 +1,28 @@
+﻿<!doctype html>
+
+<html>
+
+<head>
+    <meta name="Touhou Idle Game (not named)" content="test" charset="utf-8" />
+    <title>Touhou Idle Game (not named)</title>
+    <script type="text/javascript" src="src/jquery-3.2.1.min.js"></script>
+</head>
+
+<body id="body" style="height: 95vh">
+    <div id="container" class="container" style="color:#4F5957; font-family: Typewriter; text-align:center; font-size: 11px">
+        <div>
+            <p>你有 <span id="moneyAmount" style="font-size:25px; color: black">0</span> 圆。</p>
+        </div>
+    </div>
+    <div style="text-align:center">
+        <button id="moneyboxbtn" style="font-family: Typewriter; font-size: 20px" class="tabbtn">赛钱箱</button>
+        <button id="optionsbtn" style="font-family: Typewriter; font-size: 20px" class="tabbtn">设置</button>
+    </div>
+    <div id="moneytab" class="tab" style="text-align:center">
+        <button id="givemoney" style="font-size: 12px" onclick="giveMoneyByHand()">赛钱</button>
+    </div>
+</body>
+
+<script type="text/javascript" src="src/game.js"></script>
+
+</html>
